@@ -1,0 +1,52 @@
+.Container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.mainContain{
+
+    width: 40%;
+    height: 50rem;
+    background-color: transparent;
+    margin: auto;
+    margin-top: -10rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer{
+
+    width: 99.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #137A73;
+    color: white;
+
+    margin-top: 3rem;
+}
+.footer a{
+
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+.footer a:hover{
+
+    color: grey
+}
+
+@media (max-width: 30em) {
+
+    .mainContain{
+
+        width: 80%;
+    }
+
+} 

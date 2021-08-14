@@ -1,0 +1,137 @@
+@keyframes appear {
+
+    0%{
+        transform: scaleY(0);
+    }
+
+    100%{
+
+        transform: scaleY(1);
+    }
+    
+}
+
+.main{
+
+    width: 100%;
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+
+    animation: appear 0.4s ease;
+}
+
+.enter{
+
+    color: grey;
+}
+
+.flexcont{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.flexmoney{
+
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border: 1px solid #137A73;
+    border-radius: 30px;
+    padding: 0em 1em 0em 1em;
+
+}
+
+.flexmoney p {
+
+    color: grey;
+    font-weight: 500;
+    padding-right: 0.5em;
+}
+
+.flexmoney input{
+
+    border: none;
+    text-align: left;
+    font-weight: 700;
+    width: 80%;
+}
+
+.flexmoney input:focus{
+
+    outline: none;
+}
+.flexmoney input::-webkit-inner-spin-button{
+
+    appearance: none;
+    -moz-appearance: textfield;
+    cursor: pointer;
+
+}
+
+.continuebttn{
+
+    border: 0px;
+    background-color: #137A73;
+    padding: 1em;
+    border-radius: 30px;
+    color: white;
+    margin-left: 0.5em;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+@media (max-width: 30em){
+
+    .main{
+
+        padding-top: 0.5em;
+    }
+
+    .main p{
+
+        font-size: 0.7em;
+    }
+
+    .flexcont{
+
+        width: 60%;
+    }
+
+    .continuebttn{
+
+        font-size: 0.6em;
+    }
+
+    .flexmoney{
+
+        display: flex;
+        align-items: center;
+        width: 30%;
+        height: 1.3em;
+        border: 1px solid #137A73;
+        border-radius: 30px;
+        padding: 0em 1.3em 0em 0.3em;
+    }
+
+    .flexmoney input{
+
+        border: none;
+        text-align: left;
+        font-weight: 700;
+        width: 3.3em;
+        border-radius: 3px;
+    
+    }
+
+    .flexmoney p {
+
+        margin: 0px;
+    }
+    }

@@ -1,0 +1,59 @@
+.button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #137A73;
+    width: 10em;
+    height: 2.8em;
+    padding: 0px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button:hover{
+
+    transition: transform 0.4s;
+    transform: scale(1.05);
+}
+
+.buttondis{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #757575;
+    width: 10em;
+    height: 2.5em;
+    padding: 0px;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(201, 199, 199);
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+
+}
+
+.button p{
+
+    margin: 0px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+
+@media (max-width: 30em){
+
+    .button{
+
+        height: 3em;
+        align-self: center;
+    }
+}

@@ -1,0 +1,143 @@
+
+
+@keyframes bookmark {
+
+    0%{
+        width: 10em;
+    }
+
+    50%{
+
+        width: 8%;
+    }
+
+    100%{
+
+        width: 10em;
+    }
+    
+}
+
+@keyframes bookmark2 {
+
+    0%{
+        width: 10em;
+    }
+
+    50%{
+
+        width: 8%;
+    }
+
+    100%{
+
+        width: 10em;
+    }
+    
+}
+.main{
+
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 0px 12px 24px -6px rgba(163, 161, 161, 0.77);
+}
+
+.imgdiv{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -3.5rem;
+}
+
+.textdiv{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.belowcontainer{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    
+}
+
+.bookmarkdiv{
+
+    user-select: none;
+    background-color: rgba(212, 212, 212, 0.726);
+    text-align: center;
+    padding-right: 1em;
+    display: flex;
+    border-radius: 30px;
+    width: 10em;
+    cursor: pointer;
+    overflow: hidden;
+    animation: bookmark 1s;
+}
+.bookmarkdiv p{
+    align-self: center;
+    padding-left: 0.6em;
+    color: grey;
+    font-weight: 500;
+}
+
+.bookmarkselect{
+
+    user-select: none;
+    background-color: #137A73;
+    text-align: center;
+    padding-right: 1em;
+    display: flex;
+    border-radius: 30px;
+    width: 10em;
+    cursor: pointer;
+    overflow: hidden;
+    animation: bookmark2 1s;
+
+}
+
+.bookmarkselect p{
+    align-self: center;
+    padding-left: 0.6em;
+    color: white;
+    font-weight: 500;
+}
+
+@media (max-width: 30em){
+
+    .main{
+        width: 90%;
+    }
+
+    .bookmarkdiv{
+
+        width: 3em;
+        
+        background-color: white;
+        animation: none;
+        transition: all 0.4s;
+    }
+    .bookmarkdiv p{
+        display: none;
+    }
+
+    .bookmarkselect{
+
+       animation: none;
+       width: fit-content;
+       padding: 0.3em 0.3em 0.3em 0.3em;
+       transition: all 0.4s;
+    
+    }
+    
+    .bookmarkselect p{
+        display: none;
+    }
+}  

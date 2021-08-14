@@ -1,0 +1,52 @@
+.main{
+
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1em;
+    border: 0.5px solid rgb(207, 207, 207);
+    margin-top: 4rem;}
+
+    .flexupper{
+
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    .flexupper p{
+
+        color: #137A73;
+    }
+
+    .text{
+
+        color: grey;
+    }
+
+    .flexlower{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    .flexleft{
+
+        display: flex;
+    }
+
+    .flexleft h3{
+
+        font-size: 1.7em;
+    }
+
+    .flexleft p {
+
+        font-size: 0.7em;
+        color: grey;
+        align-self: center;
+    }
